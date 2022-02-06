@@ -28,7 +28,7 @@
   
   .header__professional-image-container {
     display: flex;
-    max-width: 280px;
+    max-width: 200px;
     margin: 0 auto;
   }
   
@@ -104,7 +104,7 @@
   .footer__link-icon-container {
     display: flex;
     transition: all 0.5s;
-    max-width: 2rem;
+    max-width: 3rem;
   }
   
   .footer__link-icon-container:hover {
