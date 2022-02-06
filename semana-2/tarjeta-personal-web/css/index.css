@@ -36,3 +36,26 @@
     width: 100%;
     border-radius: 50%;
   }
+
+  .article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .article__title,
+  .article__keywords,
+  .article__presentation,
+  .skills__title {
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+  
+  .article__title {
+    font-size: 2rem;
+  }
+  
+  .article__presentation {
+    font-size: 0.75rem;
+  }
