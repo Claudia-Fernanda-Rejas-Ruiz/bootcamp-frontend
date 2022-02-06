@@ -244,5 +244,41 @@
     box-shadow: 0 0 0.5rem 0.25rem #61dafb;
     transform: scale(1.25);
   }
+  @media (min-width: 854px) {
+    .perfil-container {
+      display: flex;
+      align-items: center;
+      padding: 0;
+      max-width: 1024px;
+      margin: auto;
+    }
   
+    .perfil__info {
+      flex: 1;
+      gap: 1.5rem;
+      text-align: left;
+    }
+  
+    
+    .perfil__info-title {
+      font-size: 2.5rem;
+    }
+  
+    .perfil__info-description {
+      font-size: 1rem
+    }
+  
+    .perfil__info-link-container {
+      justify-content: flex-start;
+    }
+    
+    .perfil__info-link {
+      font-size: 1.5rem;
+    }
+    .perfil__cover-image {
+      flex: 1;
+    }
+    .perfil__image-container {
+      max-width: 20rem;
+    }  
   
