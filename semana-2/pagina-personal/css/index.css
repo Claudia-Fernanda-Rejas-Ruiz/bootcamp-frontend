@@ -107,7 +107,7 @@
   .perfil__image-container {
     display: flex;
     max-width: 18rem;
-    border: 0.25rem solid #20232a;
+    border: 0.25rem solid white;
     border-radius: 50%;
     overflow: hidden;
     transition: all 0.5s;
@@ -287,11 +287,11 @@
   }
   
   .contacto__form-input:hover {
-    border: 0.25rem dashed gold;
+    border: 0.25rem orange;
   }
   
   .contacto__form-input:focus {
-    border: 0.25rem solid #282c34;
+    border: 0.1rem solid #282c34;
   }
   
   .contacto__form-input::placeholder {
@@ -360,7 +360,8 @@
     .footer__link-icon-container {
       display: flex;
       transition: all 0.5s;
-      max-width: 2rem;
+      max-width: 3rem;
+      padding: 1rem 0.3rem 4rem 0.3rem;
     }
     
     .footer__link-icon-container:hover {

@@ -24,10 +24,9 @@
                 <img src="https://st2.depositphotos.com/5943796/11377/v/950/depositphotos_113779284-stock-illustration-initial-letter-cv-blue-swoosh.jpg" alt="Welcome" class="header-nav__logo" />
             </a>
             <ul class="header-nav__link-list">
-                <li class="header-nav__link-item"><a href="#perfil">Perfil</a></li>
-                <li class="header-nav__link-item"><a href="#experiencia">Experiencia</a></li>
-                <li class="header-nav__link-item"><a href="#formulario">Formulario</a></li>
-                <li class="header-nav__link-item"><a href="#contacto">Contacto</a></li>
+                <li class="header-nav__link-item"><a href="#perfil" class="header-nav__link">Perfil</a></li>
+                <li class="header-nav__link-item"><a href="#experiencia" class="header-nav__link">Experiencia</a></li>
+                <li class="header-nav__link-item"><a href="#contacto" class="header-nav__link">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -127,74 +126,6 @@
             </ul>
           </div>
         </section>
-        <section>
-          <div>
-            <h2>Formulario</h2>
-            <form action="/">
-              <p>Si desea realizar algún proyecto conmigo, escriba sus datos y me contactaré con usted.</p>
-              <label for="nombre">Nombre</label>
-              </br>
-              <input type="text" id="nombre" placeholder="Ingresa tu nombre" name="nombre" required/>
-              </br>
-              <label for="apellido">Apellido</label>
-              </br>
-              <input type="text" id="apellido" placeholder="Ingresa tu apellido" name="apellido" required/>
-              </br>
-              <label for="email">Correo</label>
-              </br>
-              <input type="email" id="email" placeholder="Ingresa tu email" name="correo" required />
-              </br>
-              <label for="celular">Celular</label>
-              </br>
-              <input type="number" id="celular" placeholder="Ingresa tu número" name="celular" min="900000000" max="999999999" required/>
-              </br>    
-              <label for="fecha-nacimiento">Fecha de nacimiento</label>
-              </br>
-              <input type="date" id="fecha-nacimiento" placeholder="Fecha de nacimiento" name="fecha-de-nacimiento"/>
-              <hr/>
-              <p>Elija su género:</p>
-              <input type="radio" name="sexo" id="femenino" value="femenino"/>
-              <label for="femenino">Femenino</label>
-              <input type="radio" name="sexo" id="masculino" value="masculino"/>
-              <label for="masculino">Masculino</label>
-              <input type="radio" name="sexo" id="otros" value="otros"/>
-              <label for="otros">Prefiero no especificar</label>
-              <hr/>
-              <label for="grado">Grado de instrucción</label>
-              <select name="grado" id="grado">
-                  <option value="seleccion">--- Seleccionar grado ---</option>
-                  <option value="inicial">Inicial</option>
-                  <option value="primaria">Primaria</option>
-                  <option value="secundaria">Secundaria</option>
-                  <option value="tecnico">Técnico</option>
-                  <option value="universitario">Universitario</option>
-                  <option value="otro">Otro</option>
-              </select>
-              <hr/>
-              <label for="color">Color preferido:</label></br>
-              <input type="color" name="color" id="color"/>
-              <hr/>
-              <p>Programación:</p>
-              <input type="checkbox" name="lenguaje" id="python" value="python"> <label for="python">Python</label></br>
-              <input type="checkbox" name="lenguaje" id="javascript" value="javascript"> <label for="javascript">Javascript</label></br>
-              <input type="checkbox" name="lenguaje" id="java" value="java"> <label for="java">Java</label></br>
-              <input type="checkbox" name="lenguaje" id="php" value="php"> <label for="php">PHP</label></br>
-              <input type="checkbox" name="lenguaje" id="html" value="html"> <label for="html">HTML</label>
-              <hr/>
-              <label for="usuario">Usuario:</label>
-              <input type="text" name="usuario" id="usuario" placeholder="Escoge un usuario" minlength="8"/>
-              </br>
-              <label for="clave">Contraseña:</label>
-              <input type="password" name="clave" id="clave" placeholder="Escriba su contraseña" maxlength="36"/>
-              <hr/>
-              <label for="foto">Suba una foto de perfil:</label>
-              <input type="file" name="foto" id="foto">
-              <hr/>
-              <input type="submit" value="Registrar">
-              <input type="reset" value="Limpiar">  
-            </form>
-          </div>
-        </section>
         <section class="contacto" id="contacto">
           <div class="contacto-container">
             <h2 class="contacto__tittle">Contacto</h2>
@@ -207,7 +138,7 @@
                 min="900000000" max="999999999" required />
               <textarea placeholder="Mensaje" name="mensaje" cols="30" rows="10" class="contacto__form-input"
                 required></textarea>
-              <button class="contacto__form-button">Empieza a soñar</button>
+              <button class="contacto__form-button">Enviar</button>
             </form>
           </div>
         </section>
